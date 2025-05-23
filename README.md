@@ -15,25 +15,6 @@ This project is a real-time voice-powered E-commerce agent that uses OpenAI's GP
 
 ---
 
-## Project Structure
-
-voice-ecommerce-agent/
-├── backend/
-│ ├── main.py
-│ ├── services/
-│ │ └── openai.py
-│ └── schemas/
-│ └── session.py
-├── frontend/
-│ ├── App.jsx
-│ ├── hooks/
-│ │ ├── useWebRTC.js
-│ │ └── useVolumeAnalyzer.js
-│ └── utils/
-│ ├── api.js 
-│ └── messageTypes.js 
-
----
 
 ## Example Flow
 
@@ -50,7 +31,6 @@ Say: “Show me red sneakers under 100 dollars.”
 1. Create `.env` with your OpenAI API key:
 
 OPENAI_API_KEY=your-api-key-here
-
 
 2. Install dependencies:
 
