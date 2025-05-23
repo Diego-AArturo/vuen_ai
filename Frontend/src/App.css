@@ -1,0 +1,55 @@
+/* Base layout improvements */
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: #e4e4e7;
+  background-color: #0f0f11;
+}
+
+/* Logo styling with smooth animation */
+.logo {
+  height: 5em;
+  margin: 1em auto;
+  transition: transform 300ms ease, filter 300ms ease;
+}
+.logo:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 1em #4f46e5aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 1em #10b981aa);
+}
+
+/* Logo spin animation */
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Card styling: consistent and modern */
+.card {
+  padding: 2em;
+  background-color: #1c1c1f;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+/* Subtext for guidance/help */
+.read-the-docs {
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
