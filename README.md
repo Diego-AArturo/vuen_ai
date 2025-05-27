@@ -50,10 +50,11 @@ npm run dev
 🌐 Usage
 Click Start to initialize voice recognition.
 
-🌐 Live Demo: [https://vuen-ai.vercel.app/](https://vuen-ai.vercel.app/)
+
 
 Speak your query.
 
 View the live transcription and filter results below.
 
 ```
+🌐 Live Demo: [https://vuen-ai.vercel.app/](https://vuen-ai.vercel.app/)
